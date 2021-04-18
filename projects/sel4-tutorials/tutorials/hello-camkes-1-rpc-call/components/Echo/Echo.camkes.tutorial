@@ -1,0 +1,8 @@
+import "../../interfaces/HelloSimple.camkes";
+import "../../interfaces/HelloSimple1.camkes";
+
+component Echo {
+    provides HelloSimple h3;
+    uses HelloSimple1 h5;
+}
+

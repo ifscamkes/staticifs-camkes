@@ -1,0 +1,6 @@
+import "../../interfaces/HelloSimple1.camkes";
+
+component Client2 {
+    provides HelloSimple1 h6;
+}
+

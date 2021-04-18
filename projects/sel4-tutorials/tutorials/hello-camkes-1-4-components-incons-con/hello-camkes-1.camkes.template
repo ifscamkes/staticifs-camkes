@@ -1,0 +1,27 @@
+import <std_connector.camkes>;
+
+import "components/A/A.camkes";
+import "components/B/B.camkes";
+import "components/C/C.camkes";
+import "components/D/D.camkes";
+
+assembly {
+    composition {
+        component A A1;
+        component B B1;
+        component C C1;
+        component D D1;
+
+        connection seL4RPC h1(from A1.h2, to B1.h3);
+        connection seL4RPC h4(from B1.h5, to C1.h6);
+        connection seL4RPCCall h7(from B1.h8, to D1.h9);
+
+   }
+};
+ifcpolicy{
+  from A1 to B1;
+  from B1 to C1;
+  from A1 to C1;
+  from C1 to B1;
+  from A1 to D1;
+};
