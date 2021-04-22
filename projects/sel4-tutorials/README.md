@@ -10,7 +10,7 @@ All static IFS-CAmkES examples are available at: staticifs-camkes/projects/sel4-
    
    c. ../init --plat pc99 --tut hello-camkes-1
 
-The generated information flow policy diagram is available (graph.dot) in <project name> folder.
+The generated information flow policy diagram is available (graph.dot) in <project_name> folder.
    
 Here is a brief overview of the examples: 
 1. hello-camkes-1-rpc-call: Demonstrates RPC Call connection example with 3 components.
