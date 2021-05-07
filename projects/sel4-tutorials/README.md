@@ -16,4 +16,4 @@ Here is a brief overview of the examples:
 1. hello-camkes-1-rpc-call: Demonstrates RPC Call connection example with 3 components.
 2. hello-camkes-1-rpc: Demonstrates RPC connection example with 3 components. 
 3. hello-camkes-1-4-components-incons-ifcp: Demonstrates inconsistent information flow control policy example with 4 components.  
-4. hello-camkes-1-4-components-incons-con: Demonstrates inconsistent connections with respect to information flow control policy example with 4 components.
+4. hello-camkes-1-4-components-incons-con: Demonstrates inconsistent connections (with respect to information flow control policy) example with 4 components.
